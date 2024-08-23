@@ -36,7 +36,7 @@ async function setPosition() {
 
 async function getWeather() {
   const position = await setPosition();
-  let api = `https://api.openweathermap.org/data/2.5/weather?lat=${position.lat}&lon=${position.lon}&lang=${CONFIG.language}&appid=${key}`;
+  let api = `https://api.open-meteo.com/v1/forecast?latitude=${position.lat}&longitude=${position.lon}&hourly=temperature_2m`;
 
   let response = await fetch(api).catch(err => {
     console.log(err);
