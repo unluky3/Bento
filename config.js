@@ -80,9 +80,9 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Settings',
+			icon: 'sliders-horizontal',
+			link: 'about:settings',
 		},
 		{
 			id: '5',
