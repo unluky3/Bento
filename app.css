@@ -135,18 +135,20 @@ body {
 
 #hour,
 #separator,
-#minutes {
+#minutes,
+#month,
+#day {
   font-size: var(--fg-primary);
   font-weight: bolder;
   color: var(--fg);
 }
 
-#month,
-#day {
-  font-size: var(--fg-primary);
-  font-weight: bold;
-  color: var(--fg);
-}
+/* #month, */
+/* #day { */
+/*   font-size: var(--fg-primary); */
+/*   font-weight: bold; */
+/*   color: var(--fg); */
+/* } */
 
 #day {
   margin-left: 1.5rem;
