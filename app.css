@@ -143,7 +143,7 @@ body {
 
 #month,
 #day {
-  font-size: var(--fg-date);
+  font-size: var(--fg-primary);
   font-weight: bold;
   color: var(--fg);
 }
