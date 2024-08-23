@@ -74,9 +74,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'bot',
+			icon: 'bot',
+			link: 'https://discord.com/app',
 		},
 		{
 			id: '4',
@@ -113,9 +113,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'Todoist',
+			icon: 'trello',
+			link: 'https://todoist.com',
 		},
 		{
 			id: '4',
@@ -148,20 +148,24 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Metaroom',
+					// link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					link: 'https://open.spotify.com/artist/72igsHCazmE9rlVm0c4I9d',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'HeavenPierceHer',
+					// link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					link: 'https://open.spotify.com/artist/5fKs3wJDbfdrr7qLQu0JpF',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'HalfAsleepGames',
+					// link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					link: 'https://open.spotify.com/artist/5kXJshJjcsTBy1ZiDOQBWE',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Femtanyl',
+					// link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					link: 'https://open.spotify.com/artist/53e9n1LucuH3guikmtv180',
 				},
 			],
 		},
@@ -170,20 +174,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'ArchLinux',
+					link: 'https://www.reddit.com/r/archlinux/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Ultrakill',
+					link: 'https://www.reddit.com/r/Ultrakill/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'NeoVim',
+					link: 'https://www.reddit.com/r/neovim/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'RainWorld',
+					link: 'https://www.reddit.com/r/rainworld/',
 				},
 			],
 		},
