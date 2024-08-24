@@ -74,15 +74,15 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'bot',
+			name: 'Discord',
 			icon: 'bot',
 			link: 'https://discord.com/app',
 		},
 		{
 			id: '4',
-			name: 'Settings',
-			icon: 'sliders-horizontal',
-			link: 'about:settings',
+			name: 'ChatGpt',
+			icon: 'brain',
+			link: 'https://chatgpt.com/',
 		},
 		{
 			id: '5',
