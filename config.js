@@ -74,9 +74,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Discord',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'ArchWiki',
+			icon: 'book-user',
+			link: 'https://wiki.archlinux.org/',
 		},
 		{
 			id: '4',
