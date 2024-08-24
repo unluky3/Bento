@@ -150,22 +150,22 @@ const CONFIG = {
 				{
 					name: 'Metaroom',
 					// link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-					link: 'https://open.spotify.com/artist/72igsHCazmE9rlVm0c4I9d',
+					link: 'spotify:artist:72igsHCazmE9rlVm0c4I9d',
 				},
 				{
 					name: 'HeavenPierceHer',
 					// link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-					link: 'https://open.spotify.com/artist/5fKs3wJDbfdrr7qLQu0JpF',
+					link: 'spotify:artist:5fKs3wJDbfdrr7qLQu0JpF',
 				},
 				{
 					name: 'HalfAsleepGames',
 					// link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-					link: 'https://open.spotify.com/artist/5kXJshJjcsTBy1ZiDOQBWE',
+					link: 'spotify:artist:5kXJshJjcsTBy1ZiDOQBWE',
 				},
 				{
 					name: 'Femtanyl',
 					// link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-					link: 'https://open.spotify.com/artist/53e9n1LucuH3guikmtv180',
+					link: 'spotify:artist:53e9n1LucuH3guikmtv180',
 				},
 			],
 		},
