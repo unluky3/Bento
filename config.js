@@ -13,7 +13,7 @@ const CONFIG = {
   
 	// General
 	name: 'lev',
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
   title: 'HomePage',
 
