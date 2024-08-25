@@ -149,17 +149,17 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Metaroom',
-					link: 'spotify:artist:72igsHCazmE9rlVm0c4I9d',
+					// link: 'spotify:artist:72igsHCazmE9rlVm0c4I9d',
 					link: 'https://open.spotify.com/artist/53e9n1LucuH3guikmtv180',
 				},
 				{
 					name: 'HeavenPierceHer',
-					link: 'spotify:artist:5fKs3wJDbfdrr7qLQu0JpF',
+					// link: 'spotify:artist:5fKs3wJDbfdrr7qLQu0JpF',
 					link: 'https://open.spotify.com/artist/53e9n1LucuH3guikmtv180',
 				},
 				{
 					name: 'HalfAsleepGames',
-					link: 'spotify:artist:5kXJshJjcsTBy1ZiDOQBWE',
+					// link: 'spotify:artist:5kXJshJjcsTBy1ZiDOQBWE',
 					link: 'https://open.spotify.com/artist/53e9n1LucuH3guikmtv180',
 				},
 				{
