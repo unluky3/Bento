@@ -5,6 +5,15 @@
 // │  │ ││││├┤ ││ ┬│ │├┬┘├─┤ │ ││ ││││
 // └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
 
+function transformSpotifyUrl(url) {
+    const urlObj = new URL(url);
+    const pathname = urlObj.pathname.split('/'); // Split the pathname into parts
+    const selector = pathname[1]; // The part after the first '/'
+    const id = pathname[2]; // The part after the second '/'
+
+    return `spotify:${selector}:${id}`;
+}
+
 const CONFIG = {
 	// ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
 	// ├┴┐├─┤└─┐││  └─┐
@@ -16,6 +25,7 @@ const CONFIG = {
 	openInNewTab: false,
 	twelveHourFormat: false,
   title: 'HomePage',
+  openSpotifyInApp: true,
 
 	// Theme
 	theme: 'latte-mocha',
@@ -150,17 +160,17 @@ const CONFIG = {
 				{
 					name: 'Metaroom',
 					// link: 'spotify:artist:72igsHCazmE9rlVm0c4I9d',
-					link: 'https://open.spotify.com/artist/53e9n1LucuH3guikmtv180',
+					link: 'https://open.spotify.com/artist/72igsHCazmE9rlVm0c4I9d',
 				},
 				{
 					name: 'HeavenPierceHer',
 					// link: 'spotify:artist:5fKs3wJDbfdrr7qLQu0JpF',
-					link: 'https://open.spotify.com/artist/53e9n1LucuH3guikmtv180',
+					link: 'https://open.spotify.com/artist/5fKs3wJDbfdrr7qLQu0JpF',
 				},
 				{
 					name: 'HalfAsleepGames',
 					// link: 'spotify:artist:5kXJshJjcsTBy1ZiDOQBWE',
-					link: 'https://open.spotify.com/artist/53e9n1LucuH3guikmtv180',
+					link: 'https://open.spotify.com/artist/5kXJshJjcsTBy1ZiDOQBWE',
 				},
 				{
 					name: 'Femtanyl',
@@ -241,3 +251,10 @@ const CONFIG = {
 		},
 	],
 };
+
+// Transform Spotify URLs if necessary
+CONFIG.firstlistsContainer[0].links.forEach((item) => {
+    if (CONFIG.openSpotifyInApp && (item.link.startsWith('https://open.spotify.com') || item.link.startsWith('https://play.spotify.com'))) {
+        item.link = transformSpotifyUrl(item.link);
+    }
+});
