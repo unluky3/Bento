@@ -96,9 +96,9 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Figma',
+			icon: 'figma',
+			link: 'https://figma.com',
 		},
 		{
 			id: '6',
