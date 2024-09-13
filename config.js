@@ -84,9 +84,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'ArchWiki',
-			icon: 'book-user',
-			link: 'https://wiki.archlinux.org/',
+			name: 'Zoom',
+			icon: 'users-round',
+			link: 'https://app.zoom.us/wc/home',
 		},
 		{
 			id: '4',
