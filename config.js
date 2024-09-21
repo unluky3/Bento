@@ -25,7 +25,7 @@ const CONFIG = {
 	openInNewTab: false,
 	twelveHourFormat: false,
   title: 'HomePage',
-  openSpotifyInApp: true,
+  openSpotifyInApp: false,
 
 	// Theme
 	theme: 'latte-mocha',
