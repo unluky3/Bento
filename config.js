@@ -84,9 +84,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Zoom',
-			icon: 'users-round',
-			link: 'https://app.zoom.us/wc/home',
+			name: 'NixPkgs',
+			icon: 'snowflake',
+			link: 'https://https://search.nixos.org/',
 		},
 		{
 			id: '4',
@@ -184,8 +184,8 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'ArchLinux',
-					link: 'https://www.reddit.com/r/archlinux/',
+					name: 'NixOS',
+					link: 'https://www.reddit.com/r/nixos/',
 				},
 				{
 					name: 'Ultrakill',
