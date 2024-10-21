@@ -86,7 +86,7 @@ const CONFIG = {
 			id: '3',
 			name: 'NixPkgs',
 			icon: 'snowflake',
-			link: 'https://https://search.nixos.org/',
+			link: 'https://search.nixos.org/',
 		},
 		{
 			id: '4',
