@@ -24,13 +24,13 @@ const CONFIG = {
 	name: 'lev',
 	openInNewTab: false,
 	twelveHourFormat: false,
-  title: 'HomePage',
-  openSpotifyInApp: false,
+        title: 'HomePage',
+        openSpotifyInApp: true,
 
 	// Theme
 	theme: 'latte-mocha',
 	imageBackground: false,
-  imageUrl: './assets/background.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
+        imageUrl: './assets/background.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -158,23 +158,19 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Metaroom',
-					// link: 'spotify:artist:72igsHCazmE9rlVm0c4I9d',
-					link: 'https://open.spotify.com/artist/72igsHCazmE9rlVm0c4I9d',
+					name: 'INABAKUMORI',
+					link: 'https://open.spotify.com/artist/25b7eSZD64Sm8ReHZ1WDc7',
 				},
 				{
 					name: 'HeavenPierceHer',
-					// link: 'spotify:artist:5fKs3wJDbfdrr7qLQu0JpF',
 					link: 'https://open.spotify.com/artist/5fKs3wJDbfdrr7qLQu0JpF',
 				},
 				{
 					name: 'HalfAsleepGames',
-					// link: 'spotify:artist:5kXJshJjcsTBy1ZiDOQBWE',
 					link: 'https://open.spotify.com/artist/5kXJshJjcsTBy1ZiDOQBWE',
 				},
 				{
 					name: 'Femtanyl',
-					// link: 'spotify:artist:53e9n1LucuH3guikmtv180',
 					link: 'https://open.spotify.com/artist/53e9n1LucuH3guikmtv180',
 				},
 			],
