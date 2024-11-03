@@ -158,16 +158,16 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'INABAKUMORI',
-					link: 'https://open.spotify.com/artist/25b7eSZD64Sm8ReHZ1WDc7',
+					name: 'Metaroom',
+					link: 'https://open.spotify.com/artist/72igsHCazmE9rlVm0c4I9d',
 				},
 				{
 					name: 'HeavenPierceHer',
 					link: 'https://open.spotify.com/artist/5fKs3wJDbfdrr7qLQu0JpF',
 				},
 				{
-					name: 'HalfAsleepGames',
-					link: 'https://open.spotify.com/artist/5kXJshJjcsTBy1ZiDOQBWE',
+					name: 'INABAKUMORI',
+					link: 'https://open.spotify.com/artist/25b7eSZD64Sm8ReHZ1WDc7',
 				},
 				{
 					name: 'Femtanyl',
